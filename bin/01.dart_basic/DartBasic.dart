@@ -61,7 +61,37 @@ void main(){
     print(element);
   });*/
 
+
   //Dart control flow statement
+  // if/else, switch case is same as like other language.
+
+  //Dart looping statement
+  //For loop in Dart there are two type for & for in.
+
+  /*var  j = 10;
+  for(var i=0; i<j; i++){
+    print(i);
+  }*/
+
+  /*var num = [10,20,30,40,50];
+  for(var item in num){
+    print(item);
+  }*/
+
+  /*var product = [     //product type is list<map<'string',object>>
+    {"name": "Soup","price": 100},
+    {"name": "milk","price": 85},
+    {"name": "egg(12)","price": 155},
+    {"name": "cake","price": 65},
+  ];
+
+  for(var item in product){
+    var product = "Name: ${item["name"]} Price: ${item["price"]}";
+    print(product);
+  }*/
+
+  //While and doWhile loop is same as other language like c++
+
 
 }
 

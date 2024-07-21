@@ -1,22 +1,28 @@
+/*
 void main(){
 
   // Dart Basic
 
-  /*var name = "Uthoai Marma";
+  */
+/*var name = "Uthoai Marma";
   var isStudent = true;
   print(name);
-  print("Student: $isStudent");*/
+  print("Student: $isStudent");*//*
+
 
   //dynamic keyword used variable can accept any type of value
-  /*dynamic SS = 10;
+  */
+/*dynamic SS = 10;
   SS = "Get";
-  print(SS);*/
+  print(SS);*//*
+
 
 
   //Collection
 
   //List or Growable List
-  /*var city = <String>["Dhaka", "Chittagong","Beijing","Mumbai","Bangkok"];
+  */
+/*var city = <String>["Dhaka", "Chittagong","Beijing","Mumbai","Bangkok"];
   print(city);
 
   city[4]= "Jakarta";
@@ -31,10 +37,12 @@ void main(){
   city.removeAt(1);
   city.removeLast();
   city.removeRange(0, 3);
-  print(city);*/
+  print(city);*//*
+
 
   //Map
-  /*var studentData = {"name": "Uthoai Marma", "age": 25, "dept": "CSE"};
+  */
+/*var studentData = {"name": "Uthoai Marma", "age": 25, "dept": "CSE"};
   print(studentData["name"]);
   print(studentData["dept"]);
 
@@ -45,11 +53,13 @@ void main(){
   var employeeData = new Map();
   employeeData['name'] = "Uthoai";
   employeeData['id'] = "EMP01";
-  print(employeeData['name']);*/
+  print(employeeData['name']);*//*
+
 
   //Set
   //Set don't contain duplicate value
-  /*Set<String> id = {'EAP01', 'EAP02', 'EAP03', 'EAP03'};
+  */
+/*Set<String> id = {'EAP01', 'EAP02', 'EAP03', 'EAP03'};
   print(id);
   id.add('EAP01');
   id.add('EAP04');
@@ -59,7 +69,8 @@ void main(){
 
   id.forEach((element) {
     print(element);
-  });*/
+  });*//*
+
 
 
   //Dart control flow statement
@@ -68,17 +79,22 @@ void main(){
   //Dart looping statement
   //For loop in Dart there are two type for & for in.
 
-  /*var  j = 10;
+  */
+/*var  j = 10;
   for(var i=0; i<j; i++){
     print(i);
-  }*/
+  }*//*
 
-  /*var num = [10,20,30,40,50];
+
+  */
+/*var num = [10,20,30,40,50];
   for(var item in num){
     print(item);
-  }*/
+  }*//*
 
-  /*var product = [     //product type is list<map<'string',object>>
+
+  */
+/*var product = [     //product type is list<map<'string',object>>
     {"name": "Soup","price": 100},
     {"name": "milk","price": 85},
     {"name": "egg(12)","price": 155},
@@ -88,11 +104,11 @@ void main(){
   for(var item in product){
     var product = "Name: ${item["name"]} Price: ${item["price"]}";
     print(product);
-  }*/
+  }*//*
+
 
   //While and doWhile loop is same as other language like c++
 
 
 }
-
-
+*/
